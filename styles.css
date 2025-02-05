@@ -1,0 +1,86 @@
+.social-container  {
+    display: inline; /* Make both elements inline-block */
+    vertical-align: middle; /* Align them vertically in the middle */
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    background-color: #d7eaf3 !important;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.dark-background{
+    background-color:#14397D
+}
+
+.custom-nav {
+    background-color: #77b5d9 !important;
+}
+
+.centered-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    display: block;
+    background-color: #14397D;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #0E2A5D;
+}
+
+.indent {
+    margin-left:25px
+}
+
+.footer{
+    margin-top: auto;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
